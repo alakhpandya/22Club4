@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- forms -->
+    <!-- <form method="post"> -->
+    <form method="get">
+        <div>
+            <!-- First Name: <input required name="fName" id="firstName" type="text"> -->
+            First Name: <input maxlength="5" name="fName" id="firstName" type="text">
+        </div> <br>
+        <div>
+            <label for="lName">Last Name: </label>
+            <input name="lName" type="text" id="lName">
+        </div>
+        <div>
+            <input type="email" name="email" id="" placeholder="Email">
+        </div>
+        <div>
+            <input type="password" name="pwd" id="" placeholder="Password">
+        </div>
+
+        <div>
+            Select color for your T-shirt: <input type="color" name="" id="">
+        </div>
+        <div>
+            Date of departure: <input type="date" name="" id="">
+            <input type="datetime" name="" id="">
+            <br>
+            <input type="datetime-local" name="" id="">
+            <br>
+            Time of arrival: <input type="time" name="" id="">
+            <br>
+            Month & Year of Passing: <input type="month" name="" id="">
+            <br>
+            <input type="week" name="" id="">
+        </div>
+        <div>
+            Upload your recent photo: <input type="file" name="" id="">
+        </div>
+        <div>
+            Hidden: <input type="hidden" name="">
+        </div>
+        <div>
+            No of passangers: <input min="0" max="6" type="number" name="" id="">
+        </div>
+        <div>
+            Mobile No: <input type="tel" name="" id="">
+        </div>
+        <div>
+            <input type="radio" name="gender" id="male"><label for="male">Male</label>
+            <input type="radio" name="gender" id="female"><label for="female">Female</label>
+            <input type="radio" name="gender" id="other"><label for="other">Others</label>
+        </div>
+        <div>
+            <p>Select your budget:</p>
+            <!-- 10000<input min="10000" max="200000" type="range" name="budget" id="">200000 -->
+
+            10000 <input type="range" step="1000" value="25000" min="10000" max="200000" oninput="this.nextElementSibling.value = this.value">
+            <output>25000</output>
+        </div>
+        <div>
+            <input type="url" name="" id="" placeholder="Enter your web address">
+        </div>
+        
+        <div>
+            <input required type="checkbox" name="" id="tnc">
+            <label for="tnc">I agree to terms of use.</label>
+        </div>
+        <div>
+            <input type="checkbox" name="" checked id="whatsapp">
+            <label for="whatsapp">Send me whatsapp about offers</label>
+        </div>
+        <div>
+            <input type="button" value="No Action">
+            <input type="submit" value="Join Now">
+            <input type="reset" value="Clear All">
+        </div>
+    </form>
+    <!-- inline elements vs block elements -->
+    <!-- wxyz<p>Block</p>pqrs
+    <a href="">link 1</a>
+    <a href="">link 2</a> -->
+</body>
+
+</html>
+
+<!-- Next Class: form tags other than input -->
