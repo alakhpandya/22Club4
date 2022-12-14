@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,21 +13,69 @@
 <!-- Internal CSS -->
 <style>
     /* Tag Selector */
-    h1{ 
+    h1 {
         color: cadetblue;
     }
-    p{
+
+    p {
         color: green;
     }
+
+    a {
+        text-decoration: none;
+    }
+
+    /* id selector */
+    #unsubscribe {
+        background-color: red;
+    }
+
+    /* class selector */
+    .btn {
+        background-color: royalblue;
+        color: white;
+    }
+
+    .striked {
+        text-decoration: line-through;
+    }
+
+    .red-text {
+        color: red;
+    }
+
+
+    .section1 ul li{
+        color: purple;
+    }
 </style>
+
 <body>
     <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolorum officia natus ipsam!</h1>
     <hr>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate non porro, voluptates maxime autem nemo! Rem aperiam tempora inventore? Doloribus ex facilis consectetur obcaecati nam praesentium qui commodi perferendis dicta blanditiis tempora facere maxime, voluptates quam earum assumenda consequatur ut quis? Quaerat vitae ipsam tempora sed adipisci quasi id quam.</p>
-    
-    <!-- In-line CSS -->
-    <p style="color:firebrick">Asperiores tenetur nihil enim. Quaerat voluptas nostrum corrupti minus aperiam. Autem voluptates adipisci similique fuga ex voluptatum rerum corporis laudantium nemo velit. Molestiae, quam autem dolore ab nihil, maiores maxime dolorem enim sunt qui cumque laboriosam? Saepe suscipit maxime adipisci rerum numquam odio vero quibusdam porro cumque, mollitia eius esse.</p>
-    
-    <p>Sed voluptatum totam quaerat dolore, nam cupiditate ab voluptates tenetur reprehenderit dolorem sapiente nulla ipsum dignissimos, inventore dolores hic quos non consequuntur itaque in incidunt dicta. Provident, eius? Eaque deserunt animi sed earum? Modi sed, error commodi accusamus quia optio? Ipsam tenetur doloremque ratione aspernatur, dolor obcaecati dicta ducimus quo!</p>
+    <div class="section1">
+        <p>Lorem ipsum dolor sit amet consectetur <span class="striked">adipisicing</span> elit. Voluptate <span
+                class="red-text">non porro,</span> voluptates maxime autem nemo! Rem aperiam tempora inventore?
+            Doloribus ex facilis consectetur obcaecati nam praesentium <span class="striked">qui</span> commodi
+            perferendis dicta blanditiis tempora facere maxime, voluptates quam earum assumenda consequatur ut quis?
+            Quaerat vitae ipsam tempora sed adipisci quasi id quam.</p>
+        <button class="btn">Start Free Trial</button> <button class="btn">Join Us</button>
+    </div>
+    <div class="section2">
+        <!-- In-line CSS -->
+        <p style="color:firebrick">Asperiores tenetur nihil enim. Quaerat voluptas nostrum corrupti minus aperiam. Autem
+            voluptates adipisci similique fuga ex voluptatum rerum corporis laudantium nemo velit. Molestiae, quam autem
+            dolore ab nihil, maiores maxime dolorem enim sunt qui cumque laboriosam? Saepe suscipit maxime adipisci
+            rerum numquam odio vero quibusdam porro cumque, mollitia eius esse.</p>
+        <button class="btn">Contribute</button> <button class="btn" id="unsubscribe">Unsubscribe</button>
+    </div>
+    <div class="section3">
+        <p class="red-text">Sed voluptatum totam quaerat dolore, nam cupiditate ab voluptates tenetur reprehenderit
+            dolorem sapiente nulla ipsum dignissimos, inventore dolores hic quos non consequuntur itaque in incidunt
+            dicta. Provident, eius? Eaque deserunt animi sed earum? Modi sed, error commodi accusamus quia optio? Ipsam
+            tenetur doloremque ratione aspernatur, dolor obcaecati dicta ducimus quo!</p>
+        <a class="btn" href="#">Privacy Policy</a> | <a class="btn" href="#">Terms & Conditions</a>
+    </div>
 </body>
+
 </html>
