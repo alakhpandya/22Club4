@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Selectors in CSS */
+    /* div li a{
+        background-color: skyblue;
+    } */
+    /* .section1 .main-title{
+
+    }
+    div .main-title{
+
+    } */
+    p, h1{
+        background-color: green;
+    }
+    /* div > a{
+        background-color: purple;
+        color: white;
+    } */
+    div a{
+        background-color: red;
+        /* color: white; */
+    }
+    li:nth-child(4){
+        background-color: grey;
+    }
+    li:nth-child(even){
+        background-color: black;
+        color: white;
+    }
+    li:nth-child(odd){
+        background-color: violet;
+    }
+    li:nth-child(5n - 2){
+        background-color:antiquewhite;
+    }
+    ul + a{
+        background-color: coral;
+    }
+    div + a{
+        background-color: darkolivegreen;
+    }
+    a[target = '_blank']{
+        background-color: chartreuse;
+    }
+    li[value = '201']{
+        background-color: aquamarine;
+    }
+    input[type = 'email']{
+        background-color: rosybrown;
+    }
+</style>
+<body>
+    <h1>Welcome!</h1>
+    <a href="#">link 1</a>
+    <div>
+        <input type="email" name="" id="">
+        <input type="text" name="" id="">
+        <ul>
+            <li><a href="#" target="_blank">Lorem, ipsum dolor.</a></li>
+            <li><p>Lorem ipsum dolor sit amet.</p></li>
+            <li><a href="">Vel, officiis ab?</a></li>
+            <li><a href="">A, voluptates totam.</a></li>
+            <li><a href="">Reiciendis, odio nesciunt?</a></li>
+            <li><a href="">Sed, vitae temporibus?</a></li>
+            <li><a target="_blank" href="#">Cupiditate, odio. Impedit!</a></li>
+            <li><a href="">Sed, quae architecto.</a></li>
+            <li><a href="">Ratione, maxime aliquam.</a></li>
+            <li><a href="">Culpa, obcaecati laborum!</a></li>
+            <li><a href="">Quidem, dolores voluptates?</a></li>
+            <li><a target="_self" href="#">Nihil, inventore assumenda.</a></li>
+            <li><a href="">Distinctio, ratione aperiam?</a></li>
+            <li><a href="">Ducimus, doloribus. Obcaecati.</a></li>
+            <li><a target="" href="#">Sint, nihil a.</a></li>
+            <li><a href="">Obcaecati, deleniti unde.</a></li>
+        </ul>
+        <a href="">Join</a>
+        <a href="">Contribute</a>
+        <ol>
+            <a href=""><li>Lorem ipsum dolor sit amet.</li></a>
+            <a href=""><li>Ipsum veniam cumque doloribus rem!</li></a>
+            <a href=""><li value="201">Nam suscipit delectus molestias non!</li></a>
+            <a href=""><li>Enim similique impedit non ut.</li></a>
+            <a href=""><li>Quos ipsa atque tempore cupiditate!</li></a>
+        </ol>
+    </div>
+    <a href="#">Hello!</a>
+    <a href="#">How are you?</a>
+</body>
+</html>
