@@ -1,0 +1,18 @@
+@font-face {
+    /* font-family: "Daksha's fonts"; */
+    font-family: Roboto;
+    src: url('/fonts/Poppins/Poppins-Regular.ttf');
+}
+
+
+@font-face{
+    /* font-family: "Yash's fonts"; */
+    font-family: "Prosto One";
+    src: url('/fonts/Prosto_One/ProstoOne-Regular.ttf');
+}
+
+@font-face {
+    /* font-family: "Alakh's fonts"; */
+    font-family: "Poppins";
+    src: url('/fonts/Roboto/Roboto-Regular.ttf');
+}
