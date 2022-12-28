@@ -8,7 +8,15 @@
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Anton&family=Caramel&family=Poppins&family=Prosto+One&family=Roboto&family=Sevillana&display=swap');
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
     h1{
+        /* border: solid red 3px; */
         font-family: 'Anton', sans-serif;
         font-variant: small-caps;
         letter-spacing: 1px;
@@ -17,6 +25,7 @@
         font-family: 'Anton', sans-serif;
     }
 
+
     #para1{
         font-family: 'Sevillana', cursive;
         letter-spacing: 1px;
@@ -24,19 +33,45 @@
         /* line-height: 20px; */
         line-height: 40px;
     }
-    #para2{
+    #para2, #para-2{
         font-family: 'Caramel', cursive;
-        font-size: 30px;
+        font-size: 32px;
         letter-spacing: 2px;
     }
+    #para-2{
+        font-size: 2rem;
+    }
+    #night_sky{
+        /* width: 1519px; */
+        /* width: 100vw; */
+        /* width: 50vw; */
+        height: 100vh;
+        height: 70vh;
+    }
+
+    /* Why not to use px too much? 
+        ans: px is fixed (rigid)
+        
+        196px = 1 inch
+    */
+
+    /* Responsive Units */
+
+    /*  
+    1. rem: root's em (in the multiple of font-size of root)
+        1 rem = 16 px in most cases
+
+    2. vw & vh: in % of viewport width & viewport height
+    */
 </style>
 <body>
     <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit vero iusto suscipit omnis officiis reprehenderit.</h1>
     <p id="title-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis maiores tempore magni mollitia omnis repudiandae quidem praesentium impedit, accusantium, quasi voluptatibus! Numquam eaque temporibus labore!</p>
     <hr>
-
+    <img id="night_sky" src="/photos/night_sky.jpg" alt="">
     <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptatum quasi voluptates eum obcaecati perspiciatis inventore facere, dolorum ut eaque ratione vel minus, rem maiores praesentium illum. Non at unde facilis consequuntur, nulla rerum. Veniam, blanditiis tempore quaerat velit iure nulla rerum vel repellendus, fugit necessitatibus voluptate exercitationem nihil eius neque debitis. Repellat vero eligendi nisi necessitatibus possimus ab suscipit voluptatibus officiis omnis quae fuga, laborum nam, in alias, natus excepturi itaque? Saepe magnam quod minus ea modi nemo aliquam officiis numquam vero iure ullam eos inventore animi exercitationem maiores aliquid dolorum doloribus debitis deserunt dignissimos, velit aut, iusto laudantium!</p>
-    <p id="para2">Porro sunt aliquam a deserunt velit adipisci fugiat voluptatem eum architecto ipsa aliquid veniam ea maiores, officia aut, est natus vero quibusdam repudiandae voluptatibus optio quaerat expedita omnis. Veniam consequuntur maxime reprehenderit perspiciatis eos, tempora harum cum distinctio dolor numquam delectus libero earum deleniti voluptate tempore repellat soluta ipsa ratione praesentium enim ducimus, voluptatum possimus odit suscipit! Impedit deleniti distinctio deserunt earum consequatur voluptatibus ducimus commodi assumenda amet voluptates? Ea accusamus eius voluptas, excepturi dolor officiis sunt nisi beatae, earum nemo et doloribus quaerat optio nesciunt eligendi accusantium assumenda. Deserunt excepturi dicta nulla debitis sunt quis aliquam, voluptatem vitae esse!</p>
+    <p id="para2">Porro sunt aliquam a deserunt velit adipisci fugiat voluptatem eum architecto ipsa aliquid veniam ea maiores, officia aut, est natus vero quibusdam repudiandae voluptatibus optio quaerat expedita omnis.</p> 
+    <p id="para-2">Veniam consequuntur maxime reprehenderit perspiciatis eos, tempora harum cum distinctio dolor numquam delectus libero earum deleniti voluptate tempore repellat soluta ipsa ratione praesentium enim ducimus, voluptatum possimus odit suscipit! Impedit deleniti distinctio deserunt earum consequatur voluptatibus ducimus commodi assumenda amet voluptates? Ea accusamus eius voluptas, excepturi dolor officiis sunt nisi beatae, earum nemo et doloribus quaerat optio nesciunt eligendi accusantium assumenda. Deserunt excepturi dicta nulla debitis sunt quis aliquam, voluptatem vitae esse!</p>
     <p id="para3">Tenetur culpa itaque, dolorum, corrupti exercitationem fugiat autem reprehenderit incidunt ipsum maiores alias nihil optio unde libero veritatis, quam aliquid pariatur? Minus hic officia nostrum, voluptate provident modi culpa sit non ullam esse reiciendis, consequatur harum veritatis optio! Sapiente earum at aliquam error ex accusamus itaque cum facere molestias aut dolore, corporis et exercitationem quidem reiciendis quam laudantium? Pariatur sint dignissimos numquam saepe doloremque? Eligendi qui natus excepturi perferendis error molestias officia id inventore? Beatae doloremque nobis reiciendis ad iste totam dolorum laudantium molestias enim ullam temporibus quis exercitationem, maxime neque modi reprehenderit ab vitae itaque illum obcaecati magnam molestiae.</p>
 </body>
 </html>
