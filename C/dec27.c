@@ -64,5 +64,5 @@ int main(){
 }
 
 /*
-Ask 5 integers from user, find their factorials using a function that finds factorial of only one number at a time. Print the final answer that is addition of the factorials of all the numbers.
+1. Ask 5 integers from user, find their factorials using a function that finds factorial of only one number at a time. Print the final answer that is addition of the factorials of all the numbers.
 */
